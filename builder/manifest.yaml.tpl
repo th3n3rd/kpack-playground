@@ -38,7 +38,7 @@ metadata:
   name: builder
 spec:
   serviceAccount: builder-service-account
-  tag: th3n3rd/builder
+  tag: $USERNAME/builder
   stack:
     name: base
     kind: ClusterStack
