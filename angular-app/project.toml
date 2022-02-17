@@ -1,0 +1,17 @@
+[project]
+id = "com.example.kpack.angular"
+name = "Angular App"
+version = "1.0.0"
+
+[build]
+exclude = [
+  "node_modules"
+]
+
+[[build.env]]
+name='BP_NODE_RUN_SCRIPTS'
+value='build,cleanup-link'
+
+[[build.env]]
+name='NODE_ENV'
+value='development'
